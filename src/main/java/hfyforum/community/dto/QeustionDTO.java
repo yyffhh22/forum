@@ -1,9 +1,10 @@
-package hfyforum.community.model;
+package hfyforum.community.dto;
 
+import hfyforum.community.model.User;
 import lombok.Data;
 
 @Data
-public class Question {
+public class QeustionDTO {
     private Integer id;
     private String title;
     private String description;
@@ -14,5 +15,5 @@ public class Question {
     private Integer commentCount;
     private Integer likeCount;
     private Integer viewCount;
-
+    private User user;
 }
