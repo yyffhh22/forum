@@ -4,7 +4,7 @@ import hfyforum.community.model.User;
 import lombok.Data;
 
 @Data
-public class QeustionDTO {
+public class QuestionDTO {
     private Integer id;
     private String title;
     private String description;
